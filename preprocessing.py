@@ -36,16 +36,18 @@ class preprocessing_pipline:
     # Removal of Rare words 
     # This can help in reducing the size, so help for model generalization and avoid noises
     def remove_rare_words(self, text):
-        RAREWORDS = [word for word, count in self.most_common[-10:]] 
-        split = text.split()
-        filtered_words =  [word for word in split if word not in RAREWORDS]
-        return " ".join(filtered_words)
+        RAREWORDS = set([w for (w, wc) in cnt.most_common(10)])
+        return " ".join([word for word in str(text).split() if word not in RAREWORDS])
     
     def preprocess(self):
         self.data = self.data.apply(self.lower_case)
         self.data = self.data.apply(self.remove_punctuation)
-        #self.data = self.data.apply(self.remove_stopwords)
-        #self.data = self.data.apply(self.remove_rare_words)
+        self.data = self.data.apply(self.remove_stopwords)
+        self.data = self.data.apply(self.remove_rare_words)
+        return self.data
+    def preprocess_light(self):
+        self.data = self.data.apply(self.lower_case)
+        self.data = self.data.apply(self.remove_punctuation)
         return self.data
 
 # Test 
@@ -92,7 +94,11 @@ df = pd.DataFrame({'Speech':files, 'Date':dates, 'Location':locations, 'Year':ye
 # Preprocessing the data
 preprocessing = preprocessing_pipline(df['Speech_Text'])
 df['Speech_pr'] = preprocessing.data
+# light preprocessing
+preprocessing_light = preprocessing_pipline(df['Speech_Text'])
+df['Speech_pr_light'] = preprocessing_light.preprocess_light()
  
 # Show results
 print(df['Speech_pr'][0][:100])
 print(df['Speech_Text'][0][:100])
+print(df['Speech_pr_light'][0][:100])
