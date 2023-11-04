@@ -24,9 +24,9 @@
 - [NLP Project](#nlp-project)
   - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
-    - [Built With](#built-with)
-    - [Dataset](#dataset)
-    - [Model](#model)
+  - [Built With](#built-with)
+  - [Dataset](#dataset)
+  - [Model](#model)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -34,17 +34,22 @@
 By looking for an intresting dataset to work on, I found a dataset containing all the Rally Speeches of Donald Trump during 2019-2020, so during his second presidential campaign. 
 Trump is a controversial person, and I think it can be very funny to be able to generate his speeches, generate speeches for an other context... Create a AI with Trump's """personality"""...
 
-### Built With
+![alt text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHkzMTN4dmYwdWs2anVvNm1vMDV3eXZkNGw4cWZwa2pxM3RvanVkcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L4fv5eLVk6geaVmkaO/giphy.gif)
+
+## Built With
 
 * [Python](https://www.python.org/)
 * [Tensorflow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
 * [Numpy](https://numpy.org/)
 
-### Dataset
+## Dataset
 
 The dataset is composed of 35 speeches of Donald Trump, each speech is in a .txt file. The dataset was found on kaggle : https://www.kaggle.com/christianlillelund/donald-trumps-rallies
 
 Here is an an Exploratory data analysis that I did on the dataset : [EDA](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/EDA.ipynb)
 
-### Model
+
+
+## Model
+![alt text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW92OWJuMWF0aGY2dmJoZWcxc2wwcDdkcjE3ZjYza2FxZmNwankzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w9t0aFMjahdxpKKvzN/giphy.gif)
