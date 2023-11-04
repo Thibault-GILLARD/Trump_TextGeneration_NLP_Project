@@ -27,10 +27,10 @@
 <a href="https://www.tensorflow.org/">
   <img alt="Tensor" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
     </a>
-<a href="https://www.tensorflow.org/">
+<a href="linkedin.com/in/thibault-gillard-7b71291b6">
   <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
     </a>
-<a href="https://www.tensorflow.org/">
+<a href="">
     <img alt="Keras" src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logoColor=white">
         </a>
 </p>
