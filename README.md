@@ -18,6 +18,23 @@
   </p>
 </div>
 
+<!-- BADGE -->
+</p>
+<p align="center">
+  <a href="https://www.python.org/">
+    <img alt="Python" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+    </a>
+<a href="https://www.tensorflow.org/">
+  <img alt="Tensor" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
+    </a>
+<a href="https://www.tensorflow.org/">
+  <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    </a>
+<a href="https://www.tensorflow.org/">
+    <img alt="Keras" src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logoColor=white">
+        </a>
+</p>
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
  
