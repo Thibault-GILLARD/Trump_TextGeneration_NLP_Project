@@ -25,6 +25,7 @@
   - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
   - [Built With](#built-with)
+  - [Instructions to run](#instructions-to-run)
   - [Dataset](#dataset)
   - [Model](#model)
 
@@ -43,12 +44,26 @@ Trump is a controversial person, and I think it can be very funny to be able to 
 * [Keras](https://keras.io/)
 * [Numpy](https://numpy.org/)
 
+## Instructions to run
+ 
+1. Clone the repo
+```sh
+git clone https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project.git
+```
+2. Install the [requirements](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/requirements.txt)
+```sh
+pip install -r requirements.txt
+```
+3. Run the notbooks
+For the EDA : Lunch the EDA.ipynb [notebook](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/EDA.ipynb)
+
+    For the baseline model : Lunch the baseline.ipynb [notebook](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/baseline.ipynb)
+
 ## Dataset
 
 The dataset is composed of 35 speeches of Donald Trump, each speech is in a .txt file. The dataset was found on kaggle : https://www.kaggle.com/christianlillelund/donald-trumps-rallies
 
 Here is an an Exploratory data analysis that I did on the dataset : [EDA](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/EDA.ipynb)
-
 
 
 ## Model
