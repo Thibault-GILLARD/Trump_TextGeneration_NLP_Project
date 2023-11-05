@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize
 import string 
 from collections import Counter
 cnt = Counter()
+nltk.download('stopwords')
 
 
 class preprocessing_pipline:
