@@ -71,17 +71,37 @@ git clone https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project.g
 ```sh
 pip install -r requirements.txt
 ```
-3. Run the notbooks
+3. Run the notbooks:  
 For the EDA : Lunch the EDA.ipynb [notebook](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/EDA.ipynb)
 
     For the baseline model : Lunch the baseline.ipynb [notebook](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/baseline.ipynb)
+
+    For the LSTM model: Lunch the main.ipynb [notebook](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/main.ipynb)
 
 ## Dataset
 
 The dataset is composed of 35 speeches of Donald Trump, each speech is in a .txt file. The dataset was found on kaggle : https://www.kaggle.com/christianlillelund/donald-trumps-rallies
 
-Here is an an Exploratory data analysis that I did on the dataset : [EDA](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/EDA.ipynb)
+Here is an an **Exploratory data analysis** that I did on the dataset : [EDA](https://github.com/Thibault-GILLARD/Trump_TextGeneration_NLP_Project/blob/master/EDA.ipynb)
 
 
 ## Model
+
+### Performance:
+
+Base on the Perplexity (the lower the better)
+
+Baseline model (N-gramm): **3146**
+
 ![alt text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW92OWJuMWF0aGY2dmJoZWcxc2wwcDdkcjE3ZjYza2FxZmNwankzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w9t0aFMjahdxpKKvzN/giphy.gif)
+
+LSTM model: **1796**
+
+![alt text](https://media4.giphy.com/media/11DFuwckOK9mdG/giphy.gif?cid=ecf05e47q9nnw5ofmyk3nt33n9pncbtme183lbqmwa3fo00a&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
+Example of **generations**:
+
+- thank legacy doesnt son helicopter loophole decide many front politicians will
+- france forcing westchester betrayed eroding understandable public irans equality unemployed banned fading
+- I want to lying people supporters to give they'd crowd
+

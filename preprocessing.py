@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize
 import string 
 from collections import Counter
 cnt = Counter()
+import nltk
 nltk.download('stopwords')
 
 
