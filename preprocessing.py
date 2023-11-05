@@ -52,16 +52,12 @@ class preprocessing_pipline:
 
 # Test 
 
-# Loading the data, .txt files
 import os
 
 path = 'Trump Rally Speeches/'
 files = os.listdir(path)
 files = [path + file for file in files]
  
-# example of a file name CharlestonFeb28_2020.txt, we want to extract the date and location, the text is the speech
-
-# Extracting the date and location from the file name
 dates = []
 locations = []
 years = []
@@ -98,7 +94,7 @@ df['Speech_pr'] = preprocessing.data
 preprocessing_light = preprocessing_pipline(df['Speech_Text'])
 df['Speech_pr_light'] = preprocessing_light.preprocess_light()
  
-# Show results
+# Results
 print(df['Speech_pr'][0][:100])
 print(df['Speech_Text'][0][:100])
 print(df['Speech_pr_light'][0][:100])
